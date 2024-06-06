@@ -9,7 +9,8 @@ class PessoasController{
 
     //Declaração do método construtor.
     public function _construct(){
-        $this->pessoa = new Pessoa(); 
+        $this->pessoa = new Pessoa();
+        if($_GET['acao'] == 'inserir');
         $this->inserir();
     }
 
