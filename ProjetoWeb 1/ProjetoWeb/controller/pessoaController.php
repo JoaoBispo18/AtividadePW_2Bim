@@ -1,7 +1,7 @@
 <?php
 
 //Importação dos arquivos da pasta "Model" com prioridade "Pessoas.php".
-require_once '../model/pessoas.php';
+require_once $_SERVER['DOCUMENT_ROOT'] . '/model/pessoas.php';
 
 //Declaração de classe PessoaController.
 class PessoasController{
