@@ -29,6 +29,10 @@ class PessoasController{
         $this->pessoa->inserir();
     }
 
+    public function listar(){
+        return $this->pessoa->listar();
+    }
+
 }    
 //Instanciando PessoaControler.
 new PessoasController();
